@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Spectral;
+    src: url(../fonts/Spectral/Spectral-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Spectral;
+    src: url(../fonts/Spectral/Spectral-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Spectral;
+    src: url(../fonts/Spectral/Spectral-Medium.ttf);
+    font-weight: 500;
+}
+
+html, body {
+    background: url(../images/1616550741_58-p-letnii-fon-64.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    font-family: Spectral;
+}
+
+h1 {
+text-align: center;
+font-weight: 700;
+}
+
+h2 {
+text-align: center;
+font-weight: 500;
+}
+
+p {
+text-align: center;
+margin-left: 20%;
+margin-right: 20%;
+font-weight: 400;
+}
+
