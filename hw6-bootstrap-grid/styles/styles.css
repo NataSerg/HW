@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 1rem;
+    background: rgb(245, 242, 242);
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+}
+
+.product {
+    margin-top: 2.3rem;
+    padding: 1.5rem; 
+    min-height: 22.5rem;
+    border-radius: .3rem;
+    background: white;    
+}
+
+ i {
+     font-size: 2.3rem;
+ }
+
+ .glyphicon-cloud-download {
+     font-size: 1.5rem;
+ }
+
+ h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+ }
+
+ .btn {
+     margin: 1rem;
+ }
+
+ .name {
+     font-size: 1.5rem;
+     font-weight: 700;
+ }
+
+ .quick-start .product {
+     border-top: 5px solid rgb(75, 180, 75);
+ }
+
+.components .product {
+     border-top: 5px solid rgb(213, 39, 126);
+ }
+
+ .charts .product {
+     border-top: 5px solid rgb(64, 143, 221);
+ }
+
+ .faqs .product {
+     border-top: 5px solid rgb(116, 23, 133);
+ }
+ 
+ .showcase .product {
+     border-top: 5px solid rgb(29, 194, 142);
+}
+.license .product {
+    border-top: 5px solid rgb(227, 126, 38);
+}
+
+.quick-start .product i {
+    color:rgb(75, 180, 75);
+}
+.components .product i {
+    color: rgb(213, 39, 126);
+}
+.charts .product i {
+    color: rgb(64, 143, 221);
+}
+.faqs .product i {
+    color: rgb(116, 23, 133);
+}
+.showcase .product i {
+    color: rgb(29, 194, 142);
+}
+.license .product i {
+    color: rgb(227, 126, 38);
+}
+
+.product:hover {
+    background: rgb(233, 229, 229);
+    cursor: pointer;
+}
+
+.quick-start .product:hover .name {
+    color: rgb(75, 180, 75);
+}
+.components .product:hover .name {
+    color: rgb(213, 39, 126);
+}
+.charts .product:hover .name {
+    color: rgb(64, 143, 221);
+}
+.faqs .product:hover .name {
+    color: rgb(116, 23, 133);
+}
+.showcase .product:hover .name {
+    color: rgb(29, 194, 142);
+}
+.license .product:hover .name {
+    color: rgb(227, 126, 38);
+}
